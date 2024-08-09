@@ -1,5 +1,6 @@
 import './App.css';
 import { TonConnectButton, useTonWallet } from '@tonconnect/ui-react';
+import '@twa-dev/sdk';
 
 function App() {
   const wallet = useTonWallet();
