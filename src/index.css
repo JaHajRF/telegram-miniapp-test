@@ -1,12 +1,4 @@
-:root {
-  --tg-theme-bg-color: #efeff3;
-  --tg-theme-button-color: #63d0f9;
-  --tg-theme-button-text-color: black;
-}
-
 .Button {
-  background-color: var(--tg-theme-button-color);
-  color: var(--tg-theme-button-text-color);
   display: inline-block;
   padding: 10px 20px;
   border-radius: 10px;
@@ -24,20 +16,8 @@
   filter: brightness(105%);
 }
 
-.Hint {
-  color: var(--tg-theme-hint-color);
-}
-
 @media (prefers-color-scheme: dark) {
-  :root {
-    --tg-theme-bg-color: #131415;
-    --tg-theme-text-color: #fff;
-    --tg-theme-button-color: #32a6fb;
-    --tg-theme-button-text-color: #fff;
-  }
-
   .Card {
-    background-color: var(--tg-theme-bg-color);
     filter: brightness(165%);
   }
 
