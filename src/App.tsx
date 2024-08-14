@@ -1,5 +1,5 @@
 import './App.css';
-import { SendTransactionRequest, TonConnectButton, toUserFriendlyAddress, useTonConnectUI, useTonWallet } from '@tonconnect/ui-react';
+import { TonConnectButton, toUserFriendlyAddress, useTonWallet } from '@tonconnect/ui-react';
 import '@twa-dev/sdk';
 import { useNFTCollection } from './hooks/useNFTCollection';
 import { NFT_COLLECTION_ADDRESS } from './consts';

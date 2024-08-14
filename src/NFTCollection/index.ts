@@ -5,7 +5,7 @@ import {
   } from "@ton/core";
 import { TonClient } from "@ton/ton";
 import { flattenSnakeCell } from "../utils";
-import { CHAIN, SendTransactionRequest, toUserFriendlyAddress } from "@tonconnect/ui-react";
+import { toUserFriendlyAddress } from "@tonconnect/ui-react";
 
 export type CollectionData = {
     ownerAddress: Address;
