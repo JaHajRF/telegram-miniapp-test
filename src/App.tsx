@@ -52,6 +52,7 @@ function App() {
     <div className='App'>
       <div className='Container'>
         <TonConnectButton />
+        <video width="320" height="240" src='https://www.w3schools.com/html/movie.mp4' controls/>
         <div className='Card'>
           <b className='b-text-color'>Wallet address</b>
           <div className='Hint'>{myAddress}</div>
