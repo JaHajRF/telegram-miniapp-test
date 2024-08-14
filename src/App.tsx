@@ -14,6 +14,7 @@ function App() {
   const [myAddress, setMyAddress] = useState<string | null>(null)
   const [isLoading, setIsLoading] = useState(false)
   const wallet = useTonWallet()
+  console.log('wallet', wallet)
   const [numberOfNFTs, setNumberOfNFTs] = useState<number>(0)
   
   const tonClient = useTonClient({network: 'testnet'})
@@ -23,8 +24,10 @@ function App() {
   useEffect(() => {
     if(wallet) {
       setMyAddress(toUserFriendlyAddress(wallet?.account.address))
+      return
     }
-  },[wallet])
+    setMyAddress(null)
+    },[wallet])
 
   useEffect(() => {
     if(myAddress && nftContentsData.length === 0) {
