@@ -1,4 +1,4 @@
-b {
+.b-text-color {
   color: black;
 }
 
@@ -27,6 +27,7 @@ b {
 
 .NFTSection {
   display: flex;
+  color: black;
   background-color: white;
   width: 100%;
   height: auto;
@@ -50,4 +51,5 @@ b {
 
 .NFTSection-title {
   margin: 4% 0;
+  color: black;
 }

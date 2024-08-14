@@ -53,7 +53,7 @@ function App() {
       <div className='Container'>
         <TonConnectButton />
         <div className='Card'>
-          <b>Wallet address</b>
+          <b className='b-text-color'>Wallet address</b>
           <div className='Hint'>{myAddress}</div>
         </div>
         {isLoading ? <div>Loading...</div> : (
