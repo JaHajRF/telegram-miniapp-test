@@ -1,0 +1,1 @@
+export const NFT_COLLECTION_ADDRESS = 'EQB9ZzosBJeNyztWShYTq1YKrfgmSjFWevRWCfoSC1AgBINw'

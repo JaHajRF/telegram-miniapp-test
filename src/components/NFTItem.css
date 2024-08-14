@@ -1,0 +1,32 @@
+
+.NFTContainer {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 2%;
+  background-color: rgb(238, 238, 238);
+  margin-bottom: 5%;
+
+}
+
+.nftImage {
+  margin: 5% auto;
+  align-items: center;
+  width: 80%;
+  display: flex;
+}
+
+.descriptionContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.nftText {
+  display: flex;
+  margin-top: 2%;
+  text-align: left;
+}
